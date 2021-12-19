@@ -1,9 +1,10 @@
 ---
 templateKey: 'product-page'
 path: /products
-title: Our Coffee
+title: Nuestros servicios en Extranjería e inmigración
+subheading: Ofrecemos asesoramiento y tramitación de Expedientes, Iniciales y/o de Renovación, de las siguientes Autorizaciones, entre otros servicios
 image: /img/jumbotron.jpg
-heading: Great coffee with a conscience
+heading: h
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,

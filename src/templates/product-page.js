@@ -14,6 +14,7 @@ export const ProductPageTemplate = ({
   image,
   title,
   heading,
+  subheading,
   description,
   intro,
   main,
@@ -26,7 +27,7 @@ export const ProductPageTemplate = ({
 
   return (
     <div className="content">
-      <FullWidthImage img={heroImage} title={title} />
+      <FullWidthImage img={heroImage} title={title} subheading={subheading} />
       <section className="section section--gradient">
         <div className="container">
           <div className="section">
@@ -100,6 +101,7 @@ ProductPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
+  subheading: PropTypes.string,
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
@@ -129,6 +131,7 @@ const ProductPage = ({ data }) => {
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
+        subheading={frontmatter.subheading}
         description={frontmatter.description}
         intro={frontmatter.intro}
         main={frontmatter.main}
@@ -161,6 +164,7 @@ export const productPageQuery = graphql`
           }
         }
         heading
+        subheading
         description
         intro {
           blurbs {
