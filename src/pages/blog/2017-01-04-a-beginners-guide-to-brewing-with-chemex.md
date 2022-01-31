@@ -1,29 +1,72 @@
 ---
 templateKey: blog-post
-title: A beginners’ guide to brewing with Chemex
+title: El Arraigo en España
 date: 2017-01-04T15:04:10.000Z
-featuredpost: false
+description: El arraigo es  una de las situaciones por las cuales  la
+  Administración puede autorizar la residencia temporal en España a un individuo
+  por circunstancias excepcionales.
+featuredpost: true
 featuredimage: /img/chemex.jpg
-description: Brewing with a Chemex probably seems like a complicated, time-consuming ordeal, but once you get used to the process, it becomes a soothing ritual that's worth the effort every time.
 tags:
-  - brewing
-  - chemex
+  - Arraigo  Extranjería    España
 ---
-![chemex](/img/chemex.jpg)
+![chemex](/img/arraigo-portada_social-media-art-1.jpg)
 
-This week we’ll **take** a look at all the steps required to make astonishing coffee with a Chemex at home. The Chemex Coffeemaker is a manual, pour-over style glass-container coffeemaker that Peter Schlumbohm invented in 1941, and which continues to be manufactured by the Chemex Corporation in Chicopee, Massachusetts.
+<!--StartFragment-->
 
-In 1958, designers at the [Illinois Institute of Technology](https://www.spacefarm.digital) said that the Chemex Coffeemaker is _"one of the best-designed products of modern times"_, and so is included in the collection of the Museum of Modern Art in New York City.
+**¿Qué es la residencia por arraigo?**
 
-## The little secrets of Chemex brewing
+El arraigo es una residencia por circunstancias excepcionales destinada a personas extranjeras no comunitarias que sean mayores de edad y que se encuentren en España.
 
-The Chemex Coffeemaker consists of an hourglass-shaped glass flask with a conical funnel-like neck (rather than the cylindrical neck of an Erlenmeyer flask) and uses proprietary filters, made of bonded paper (thicker-gauge paper than the standard paper filters for a drip-method coffeemaker) that removes most of the coffee oils, brewing coffee with a taste that is different than coffee brewed in other coffee-making systems; also, the thicker paper of the Chemex coffee filters may assist in removing cafestol, a cholesterol-containing compound found in coffee oils. Here’s three important tips newbies forget about:
+\
+**¿Dónde se regula el arraigo?**
 
-1. Always buy dedicated Chemex filters.
-2. Use a scale, don’t try to eyeball it.
-3. Never skip preheating the glass.
-4. Timing is key, don’t forget the clock.
+En el [Reglamento de Extranjería](https://www.boe.es/buscar/act.php?id=BOE-A-2011-7703) hace referencia al arraigo a partir del artículo 123 en cuanto a la autorización de residencia temporal en España.
 
-The most visually distinctive feature of the Chemex is the heatproof wooden collar around the neck, allowing it to be handled and poured when full of hot water. This is turned, then split in two to allow it to fit around the glass neck. The two pieces are held loosely in place by a tied leather thong. The pieces are not tied tightly and can still move slightly, retained by the shape of the conical glass.
 
-For a design piece that became popular post-war at a time of Modernism and precision manufacture, this juxtaposition of natural wood and the organic nature of a hand-tied knot with the laboratory nature of glassware was a distinctive feature of its appearance.
+
+**Tipos de arraigo en España**\
+Si la Administración concede la residencia por arraigo, lo podrá hacer motivada por las siguientes razones que se regulan en el artículo 124 del Reglamento de Extranjería.
+
+1. *Arraigo laboral* - Artículo 124.1 del Reglamento de Extranjería
+
+Para obtener la autorización por arraigo laboral será necesario corroborar que se cumple lo siguiente:
+
+* Haber permanecido en España un mínimo de dos años.
+* Carecer de antecedentes penales en España y en su país de origen o en el país o países en que haya residido durante los últimos cinco años.
+* Existencia de una relación laboral superior a seis meses. A los efectos de acreditar la relación laboral y su duración, el interesado deberá presentar una resolución judicial que la reconozca o la resolución administrativa confirmatoria del acta de infracción de la Inspección de Trabajo y Seguridad Social que la acredite.
+
+
+
+2. *Arraigo social* - Artículo 124.2 del Reglamento de Extranjería
+
+Podrán obtener una autorización los extranjeros que acrediten la permanencia continuada en España durante un periodo mínimo de tres años.
+
+Además, deberá cumplir, de forma acumulativa, los siguientes requisitos:
+
+* Carecer de antecedentes penales en España y en su país de origen o en el país o países en que haya residido durante los últimos cinco años.
+* Contar con un contrato de trabajo firmado por el trabajador y el empresario en el momento de la solicitud para un periodo que no sea inferior a un año.
+* Tener vínculos familiares con otros extranjeros residentes o presentar un informe de arraigo que acredite su integración social, emitido por la Comunidad Autónoma en cuyo territorio tengan su domicilio habitual.
+
+A estos efectos, los vínculos familiares se entenderán referidos exclusivamente a los cónyuges o parejas de hecho registradas, ascendientes y descendientes en primer grado y línea directa.
+
+
+
+3. *Arraigo familiar* - Artículo 124.3 del Reglamento de Extranjería
+
+Por arraigo familiar:
+
+* Cuando se trate de padre o madre de un menor de nacionalidad española, siempre que el progenitor solicitante tenga a cargo al menor y conviva con éste o esté al corriente de las obligaciones paternofiliales respecto al mismo.
+* Cuando se trate de hijos de padre o madre que hubieran sido originariamente españoles.
+
+
+
+**Procedimiento para solicitar el arraigo**
+
+La solicitud de autorización de residencia, que tendrá una duración de 3 meses, debe ser realizada personalmente por el interesado incluyendo el formato oficial y la documentación correspondiente.
+
+Debe realizarse ante la Delegación o Subdelegación de Gobierno de la provincia donde se encuentre el extranjero interesado y será necesario pagar una tasa.
+
+
+
+<!--EndFragment-->
