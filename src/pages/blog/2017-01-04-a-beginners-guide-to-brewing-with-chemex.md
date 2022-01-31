@@ -6,7 +6,7 @@ description: El arraigo es  una de las situaciones por las cuales  la
   Administración puede autorizar la residencia temporal en España a un individuo
   por circunstancias excepcionales.
 featuredpost: true
-featuredimage: /img/chemex.jpg
+featuredimage: /img/tarjeta-de-residencia-por-arraigo.jpg
 tags:
   - Arraigo  Extranjería    España
 ---
