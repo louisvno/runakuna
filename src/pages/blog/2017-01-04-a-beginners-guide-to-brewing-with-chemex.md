@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: El Arraigo en España
+title: Los Arraigos en España
 date: 2017-01-04T15:04:10.000Z
 description: El arraigo es  una de las situaciones por las cuales  la
   Administración puede autorizar la residencia temporal en España a un individuo
