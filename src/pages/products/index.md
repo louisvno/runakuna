@@ -1,7 +1,12 @@
 ---
 heading: h
-subheading: "Ofrecemos asesoramiento y tramitación de Expedientes, Iniciales y/o
-  de Renovación, de las siguientes Autorizaciones, entre otros servicio:
+subheading: ..
+path: /products
+templateKey: product-page
+title: Nuestros servicios en Extranjería e inmigración
+image: /img/jumbotron.jpg
+description: "Ofrecemos asesoramiento y tramitación de Expedientes, Iniciales
+  y/o de Renovación, de las siguientes Autorizaciones, entre otros servicio:
   Solicitud de Nacionalidad. Solicitud de Renovación N.I.E. Solicitud de N.I.E.
   Régimen Comunitario y Familiares de Comunitarios. Solicitud de Autorización de
   Residencia Temporal Reagrupación Familiar. Solicitud de Autorización de
@@ -17,11 +22,6 @@ subheading: "Ofrecemos asesoramiento y tramitación de Expedientes, Iniciales y/
   Administración: Infracciones y Sanciones. Internamientos y Expulsiones.
   Solicitud de: Informes de Vivienda. Informes de Arraigo. Partidas de
   Nacimiento y/o Matrimonio. Volantes de Empadronamiento y/o Convivencia."
-path: /products
-templateKey: product-page
-title: Nuestros servicios en Extranjería e inmigración
-image: /img/jumbotron.jpg
-description: descripcion
 intro:
   blurbs:
     - image: /img/coffee.png
