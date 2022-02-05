@@ -30,6 +30,7 @@ export default function FullWidthImage(props) {
               // You can set a maximum height for the image, if you wish.
               height: height,
               width: "100%",
+              opacity: "0.8"
             }}
             // You can optionally force an aspect ratio for the generated image
             aspectratio={3 / 1}
@@ -46,6 +47,7 @@ export default function FullWidthImage(props) {
               gridArea: "1/1",
               // You can set a maximum height for the image, if you wish.
               maxHeight: height,
+              opacity: "0.8"
             }}
             layout="fullWidth"
             // You can optionally force an aspect ratio for the generated image
@@ -64,17 +66,21 @@ export default function FullWidthImage(props) {
               // This centers the other elements inside the hero component
               placeItems: "center",
               display: "grid",
-              backgroundColor: "rgb(255,255,255, 0.4)"
+              backgroundColor: "rgb(255,255,255, 0.85)",
+              margin: "0 60px 0 60px",
+              padding: "20px",
             }}
           >
             {/* Any content here will be centered in the component */}
             {title && (
               <h1
-                className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-2-widescreen"
+                className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                 style={{
                   color: "black",
                   lineHeight: "1",
                   padding: "0.25em",
+                  fontFamily:"Cormorant Garamond, serif",
+                  letterSpacing: "0.15rem"
                 }}
               >
                 {title}
@@ -87,7 +93,9 @@ export default function FullWidthImage(props) {
                   color: "black",
                   lineHeight: "1",
                   padding: "0.25rem",
+                  paddingBottom: "1rem",
                   marginTop: "0.5rem",
+                  fontFamily:"Cormorant Garamond, serif",
                 }}
               >
                 {subheading}
