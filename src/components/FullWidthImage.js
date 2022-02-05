@@ -70,7 +70,7 @@ export default function FullWidthImage(props) {
             {/* Any content here will be centered in the component */}
             {title && (
               <h1
-                className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+                className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-2-widescreen"
                 style={{
                   color: "black",
                   lineHeight: "1",
@@ -82,7 +82,7 @@ export default function FullWidthImage(props) {
             )}
             {subheading && (
               <h3
-                className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+                className="has-text-weight-bold is-size-4-mobile is-size-4-tablet is-size-3-widescreen"
                 style={{
                   color: "black",
                   lineHeight: "1",
