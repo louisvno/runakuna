@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Runakuna Asesoría Jurídica
+title: Runakuna
 image: /img/home-jumbotron.jpg
 heading: " "
-subheading: " "
+subheading: " Asesoría Jurídica  "
 mainpitch:
   title: Why Kaldi
   description: >
