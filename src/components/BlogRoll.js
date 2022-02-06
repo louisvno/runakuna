@@ -84,7 +84,7 @@ export default function BlogRoll() {
           ) {
             edges {
               node {
-                excerpt(pruneLength: 400)
+                excerpt(pruneLength: 200)
                 id
                 fields {
                   slug
