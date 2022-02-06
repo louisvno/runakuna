@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { GatsbyImage } from "gatsby-plugin-image";
+import "@fontsource/cormorant-garamond";
 
 export default function FullWidthImage(props) {
   const {
