@@ -39,10 +39,36 @@ const Navbar = class extends React.Component {
         aria-label="main-navigation"
       >
         <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: "88px" }} />
-            </Link>
+          <div className="navbar-brand is-flex-direction-row">
+              <Link to="/" title="Logo">
+                <img src={logo} alt="Runakuna" style={{ width: "88px", padding: "0.25rem 0.5rem 0 0.5rem" }} />
+              </Link>
+              <div style={{
+                    padding: "0.5rem 2rem 0.5rem 0",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "center"
+                  }}>
+                <h4
+                  className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-5-widescreen"
+                  style={{
+                    color: "black",
+                    lineHeight: "1",
+                    fontFamily:"Cormorant Garamond, serif",
+                  }}
+                >
+                  Runakuna
+                </h4>
+                <h4 className="is-size-6-mobile is-size-6-tablet is-size-6-widescreen"
+                  style={{
+                    color: "black",
+                    lineHeight: "1",
+                    fontFamily:"Cormorant Garamond, serif",
+                  }}
+                >
+                  Asesoría Jurídica
+                </h4>
+              </div>
             {/* Hamburger menu */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
@@ -62,6 +88,9 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
+              <Link className="navbar-item" to="/">
+                Home
+              </Link>
               <Link className="navbar-item" to="/about">
                 Quienes somos
               </Link>
