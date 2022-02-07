@@ -9,8 +9,21 @@ description: "También conocido como pasaporte electrónico, es un documento de
 featuredpost: true
 featuredimage: /img/imagen-redes-mediador_social-media-art-1.jpg
 tags:
-  - "#pasaporte #pasaporteelectronico #España #Barcelona #extranjería #migración
-    #turismo"
+  - pasaporte
+  - electrónico
+  - España
+  - Barcelona
+  - extranjería
+  - migración
+  - turismo
+  - arraigo
+  - extranjería
+  - regularización
+  - migración
+  - derecho
+  - abogado
+  - España
+  - ley
 ---
 <!--StartFragment-->
 
