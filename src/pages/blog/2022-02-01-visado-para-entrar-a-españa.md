@@ -6,8 +6,16 @@ description: "\n\n"
 featuredpost: true
 featuredimage: /img/imagen-redes-mediador_social-media-art-2.jpg
 tags:
-  - "#migración #España #visado #visa  #inmigración  #países #Europa #Barcelona
-    #requisitos  #turismo"
+  - migración
+  - España
+  - visado
+  - visa
+  - inmigración
+  - países
+  - Europa
+  - Barcelona
+  - requisitos
+  - turismo
 ---
 Este requisito es exigible a los nacionales de terceros países incluidos en el listado de países sometidos a la obligación de visado para el cruce de las fronteras exteriores, siempre que no estén en posesión de un permiso de residencia válido o un visado de larga duración válido expedido por otro Estado Miembro.
 
