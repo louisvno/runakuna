@@ -6,8 +6,23 @@ description: Requisitos para entrar a España en condición de turista.
 featuredpost: true
 featuredimage: /img/imagen-redes-mediador_social-media-art-3.jpg
 tags:
-  - "#migración #España #visado #visa  #emigración  #países #Europa #Barcelona
-    #requisitos  #turismo"
+  - migración
+  - España
+  - visado
+  - visa
+  - emigración
+  - países
+  - Europa
+  - Barcelona
+  - requisitos
+  - turismo
+  - extranjería
+  - regularización
+  - migración
+  - derecho
+  - abogado
+  - España
+  - ley
 ---
 <!--StartFragment-->
 
