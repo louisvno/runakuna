@@ -5,7 +5,7 @@ path: /products
 templateKey: product-page
 title: "Nuestros servicios "
 image: /img/jumbotron.jpg
-description: Servicios profesionales
+description: Servicios profesionale
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -78,15 +78,6 @@ intro:
         - Seguridad social.
         - Prestaciones : Jubilación, viudedad, incapacidades, reclamos etc.
 
-    - image: /img/tutorials.png
-      text: |+
-        Nuestros servicios en Mediación
-         
-        - Mediación Social
-        - Mediación Familiar
-        - Mediación Mercantil
-        - Mediación Contencioso-Administrativo
-
     - text: |
         Nuestros servicios en Mediación
          
@@ -94,7 +85,7 @@ intro:
         - Mediación Familiar
         - Mediación Mercantil
         - Mediación Contencioso-Administrativo
-      image: /img/coffee-gear.png
+      image: /img/favicon-32x32.png
   heading: intro??
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
