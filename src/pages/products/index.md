@@ -87,6 +87,14 @@ intro:
         - Mediación Mercantil
         - Mediación Contencioso-Administrativo
 
+    - text: |
+        Nuestros servicios en Mediación
+         
+        - Mediación Social
+        - Mediación Familiar
+        - Mediación Mercantil
+        - Mediación Contencioso-Administrativo
+      image: /img/coffee-gear.png
   heading: intro??
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
