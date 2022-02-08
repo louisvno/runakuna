@@ -79,8 +79,6 @@ intro:
         - Seguridad social.
         - Prestaciones : Jubilación, viudedad, incapacidades, reclamos etc.
 
-    - text: -------
-      image: /img/coffee-gear.png
     - text: |
         Nuestros servicios en Mediación
          
@@ -89,10 +87,10 @@ intro:
         - Mediación Mercantil
         - Mediación Contencioso-Administrativo
       image: /img/favicon-32x32.png
-  heading: ----
+  heading: .
   description: |-
     
-    -----
+    .
 main:
   heading: .
   description: .
