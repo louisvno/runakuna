@@ -3,34 +3,66 @@ heading: h
 subheading: ..
 path: /products
 templateKey: product-page
-title: Nuestros servicios en Extranjería e inmigración
+title: "Nuestros servicios "
 image: /img/jumbotron.jpg
-description: "Ofrecemos asesoramiento y tramitación de Expedientes, Iniciales
-  y/o de Renovación, de las siguientes Autorizaciones, entre otros servicio:
-  Solicitud de Nacionalidad. Solicitud de Renovación N.I.E. Solicitud de N.I.E.
-  Régimen Comunitario y Familiares de Comunitarios. Solicitud de Autorización de
-  Residencia Temporal Reagrupación Familiar. Solicitud de Autorización de
-  Residencia Temporal y Trabajo Cuenta Ajena. Solicitud de Autorización de
-  Residencia Temporal y Trabajo Cuenta Propia. Solicitud de Autorización de
-  Residencia y/o Trabajo Circunstancias Excepcionales: Arraigo Social. Arraigo
-  Laboral. Arraigo Familiar. Solicitud de Autorización de Residencia de Larga
-  Duración/Larga Duración UE. Solicitud de Autorización de Residencia de Visado
-  de Estudiantes. Solicitud de Autorización para Trabajar. Solicitud de
-  Autorización de Regreso. Homologación de Títulos. Apostillas de Títulos.
-  Legalización de Menores. Cartas de Invitación. Visados. Cancelación de
-  Penales. Revocación de órdenes de expulsión. Recursos contra la
-  Administración: Infracciones y Sanciones. Internamientos y Expulsiones.
-  Solicitud de: Informes de Vivienda. Informes de Arraigo. Partidas de
-  Nacimiento y/o Matrimonio. Volantes de Empadronamiento y/o Convivencia."
+description: Servicios profesionales
 intro:
   blurbs:
     - image: /img/coffee.png
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+      text: >-
+        Nuestros servicios en Extranjería e inmigración
+
+        Ofrecemos asesoramiento y tramitación de Expedientes, Iniciales y/o de Renovación, de las siguientes Autorizaciones, entre otros servicio:
+
+
+        - Solicitud de Nacionalidad.
+
+        - Solicitud de Renovación N.I.E.
+
+        - Solicitud de N.I.E. Régimen Comunitario y Familiares de Comunitarios.
+
+        - Solicitud de Autorización de Residencia Temporal Reagrupación Familiar.
+
+        - Solicitud de Autorización de Residencia Temporal y Trabajo Cuenta Ajena.
+
+        - Solicitud de Autorización de Residencia Temporal y Trabajo Cuenta Propia.
+
+        - Solicitud de Autorización de Residencia y/o Trabajo Circunstancias Excepcionales:
+                               - Arraigo Social.
+                               -  Arraigo Laboral.
+                               -  Arraigo Familiar.
+
+        - Solicitud de Autorización de Residencia de Larga Duración/Larga Duración UE.
+
+        - Solicitud de Autorización de Residencia de Visado de Estudiantes.
+
+        - Solicitud de Autorización para Trabajar.
+
+        - Solicitud de Autorización de Regreso.
+
+        - Homologación de Títulos.
+
+        - Apostillas de Títulos.
+
+        - Legalización de Menores.
+
+        - Cartas de Invitación.
+
+        - Visados.
+
+        - Cancelación de Penales.
+
+        - Revocación de órdenes de expulsión.
+
+        - Recursos contra la Administración:
+                            - Infracciones y Sanciones.
+                            - Internamientos y Expulsiones.
+
+        - Solicitud de:
+                          -  Informes de Vivienda.
+                          - Informes de Arraigo.
+                          - Partidas de Nacimiento y/o Matrimonio.
+                          - Volantes de Empadronamiento y/o Convivencia.
     - image: /img/coffee-gear.png
       text: >
         We offer a small, but carefully curated selection of brewing gear and
