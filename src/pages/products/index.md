@@ -96,11 +96,11 @@ main:
   description: .
   image1:
     alt: " "
-    image: /img/arraigo-social-parte-1.jpg
+    image: /img/adobestock_274222119.jpeg
   image2:
     alt: " "
-    image: /img/adobestock_274222119.jpeg
+    image: /img/mediacion.jpg
   image3:
     alt: " "
-    image: /img/adobestock_306878575.jpeg
+    image: /img/adobestock_274222119.jpeg
 ---
