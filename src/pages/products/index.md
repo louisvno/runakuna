@@ -1,11 +1,12 @@
 ---
-heading: h
-subheading: ..
+heading: Nuestros servicios
+subheading: ---
 path: /products
 templateKey: product-page
-title: "Nuestros servicios "
+title: ¿Qué ofrecemos?
 image: /img/jumbotron.jpg
-description: Servicios profesionale
+description: Nos enfocamos en las ramas de  extranjería, mediación, laboral y
+  seguridad social
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -86,26 +87,20 @@ intro:
         - Mediación Mercantil
         - Mediación Contencioso-Administrativo
       image: /img/favicon-32x32.png
-  heading: intro??
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+  heading: ----
+  description: |-
+    
+    -----
 main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+  heading: ---
+  description: ------
   image1:
     alt: " "
-    image: /img/home-jumbotron.jpg
+    image: /img/arraigo-social-parte-1.jpg
   image2:
     alt: " "
-    image: /img/home-jumbotron.jpg
+    image: /img/adobestock_274222119.jpeg
   image3:
     alt: " "
-    image: /img/home-jumbotron.jpg
+    image: /img/adobestock_306878575.jpeg
 ---
