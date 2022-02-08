@@ -9,7 +9,7 @@ description: Nos enfocamos en las ramas de  extranjería, mediación, laboral y
   seguridad social
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/adobestock_306878575.jpeg
       text: >-
         Nuestros servicios en Extranjería e inmigración
 
@@ -86,7 +86,7 @@ intro:
         - Mediación Familiar
         - Mediación Mercantil
         - Mediación Contencioso-Administrativo
-      image: /img/favicon-32x32.png
+      image: /img/mediacion.jpg
   heading: .
   description: |-
     
