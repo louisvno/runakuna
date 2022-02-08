@@ -64,7 +64,7 @@ intro:
                           - Informes de Arraigo.
                           - Partidas de Nacimiento y/o Matrimonio.
                           - Volantes de Empadronamiento y/o Convivencia.
-    - image: /img/coffee-gear.png
+    - image: /img/en-que-casos-hay-que-recurrir-a-un-abogado-laboralista.jpg
       text: |+
         Nuestros servicios en Laboral y Seguridad Social
 
