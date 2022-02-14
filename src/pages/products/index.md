@@ -9,7 +9,7 @@ description: Nos enfocamos en las ramas de  extranjería, mediación, laboral y
   seguridad social
 intro:
   blurbs:
-    - image: /img/extranjeria.jpg
+    - image: /img/my-project-2-.png
       text: >-
         Nuestros servicios en Extranjería e inmigración
 
@@ -64,7 +64,7 @@ intro:
                           - Informes de Arraigo.
                           - Partidas de Nacimiento y/o Matrimonio.
                           - Volantes de Empadronamiento y/o Convivencia.
-    - image: /img/laboral.jpg
+    - image: /img/my-project.png
       text: |+
         Nuestros servicios en Laboral y Seguridad Social
 
@@ -86,7 +86,7 @@ intro:
         - Mediación Familiar
         - Mediación Mercantil
         - Mediación Contencioso-Administrativo
-      image: /img/mediacion.jpg
+      image: /img/my-project-1-.png
   heading: .
   description: |-
     
