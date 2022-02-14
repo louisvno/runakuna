@@ -4,7 +4,7 @@ subheading: .
 path: /products
 templateKey: product-page
 title: ¿Qué ofrecemos?
-image: /img/jumbotron.jpg
+image: /img/mediacion2.jpg
 description: Nos enfocamos en las ramas de  extranjería, mediación, laboral y
   seguridad social
 intro:
