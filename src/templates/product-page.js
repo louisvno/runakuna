@@ -21,7 +21,7 @@ export const ProductPageTemplate = ({
 
   return (
     <div className="content">
-      <FullWidthImage img={heroImage} title={title} subheading={subheading} />
+      <FullWidthImage img={heroImage} title={title} subheading={''} />
         <div className="container">
           <div className="section">
             <div className="columns">
@@ -29,13 +29,83 @@ export const ProductPageTemplate = ({
                 <h3 className="has-text-weight-semibold is-size-2">
                   {heading}
                 </h3>
-                <p>{description}</p>
+                <strong>{description}</strong>
               </div>
             </div>
             <div className="columns">
               <div className="column is-10 is-offset-1">
-                <Features gridItems={intro.blurbs} /> 
-                <div className="columns">
+                <Features gridItems={intro.blurbs}>
+                  <div>
+                  <h3>Nuestros servicios en Extranjería e inmigración:</h3>
+
+                  Ofrecemos asesoramiento y tramitación de Expedientes, Iniciales y/o de Renovación, de las siguientes Autorizaciones, entre otros servicios:
+                    <ul>
+                      <li>Solicitud de Nacionalidad.</li>
+                      <li>Solicitud de Renovación N.I.E.</li>
+                      <li>Solicitud de N.I.E. Régimen Comunitario y Familiares de Comunitarios.</li>
+                      <li>Solicitud de Autorización de Residencia Temporal Reagrupación Familiar.</li>
+                      <li>Solicitud de Autorización de Residencia Temporal y Trabajo Cuenta Ajena.</li>
+                      <li>Solicitud de Autorización de Residencia Temporal y Trabajo Cuenta Propia.</li>
+                      <li>Solicitud de Autorización de Residencia y/o Trabajo Circunstancias Excepcionales:
+                        <ul>
+                          <li>Arraigo Social.</li>
+                          <li>Arraigo Laboral.</li>
+                          <li>Arraigo Familiar.</li>
+                        </ul>
+                      </li>
+                      <li>Solicitud de Autorización de Residencia de Larga Duración/Larga Duración UE.</li>
+                      <li>Solicitud de Autorización de Residencia de Visado de Estudiantes.</li>
+                      <li>Solicitud de Autorización para Trabajar.</li>
+                      <li>Solicitud de Autorización de Regreso.</li>
+                      <li>Homologación de Títulos.</li>
+                      <li>Apostillas de Títulos.</li>
+                      <li>Legalización de Menores.</li>
+                      <li>Cartas de Invitación.</li>
+                      <li>Visados.</li>
+                      <li>Cancelación de Penales.</li>
+                      <li>Revocación de órdenes de expulsión.</li>
+                      <li>Recursos contra la Administración:
+                        <ul>
+                          <li>Infracciones y Sanciones.</li>
+                          <li>Internamientos y Expulsiones.</li>
+                        </ul>
+                      </li>
+                      <li>Solicitud de:
+                        <ul>
+                          <li>Informes de Vivienda.</li>
+                          <li>Informes de Arraigo.</li>
+                          <li>Partidas de Nacimiento y/o Matrimonio.</li>
+                          <li>Volantes de Empadronamiento y/o Convivencia.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h3>Nuestros servicios en Laboral y Seguridad Social:</h3>
+
+                    <li>Cálculo de indemnizaciones por despido o accidente.</li>
+                    <li>Conciliaciones.</li>
+                    <li>Relación con los Representantes Legales de los Trabajadores</li>
+                    <li>Gestión y Administración de Nóminas</li>
+                    <li>Reclamaciones salariales.</li>
+                    <li>FOGASA.</li>
+                    <li>Acoso laboral.</li>
+                    <li>Sanciones disciplinarias injustificadas.</li>
+                    <li>Seguridad social.</li>
+                    <li>Prestaciones : Jubilación, viudedad, incapacidades, reclamos etc.</li>               
+                  </div>
+
+                  <div>
+                    <h3>Nuestros servicios en Mediación</h3>
+                    <li>Mediación Social</li>
+                    <li>Mediación Familiar</li>
+                    <li>Mediación Mercantil</li>
+                    <li>Mediación Contencioso-Administrativo</li>
+                  </div>
+                </Features> 
+
+                {/* <div className="columns">
                   <div className="column is-7">
                     <h3 className="has-text-weight-semibold is-size-3">
                       {main.heading}
@@ -63,7 +133,7 @@ export const ProductPageTemplate = ({
                       </article>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

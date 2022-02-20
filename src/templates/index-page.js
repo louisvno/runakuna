@@ -28,30 +28,29 @@ export const IndexPageTemplate = ({
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <div className="content">
-                  <div className="content">
-                    <div className="tile">
-                      <h1 className="title">{mainpitch.title}</h1>
-                    </div>
-                    <div className="tile">
-                      <h3 className="subtitle">{mainpitch.description}</h3>
-                    </div>
-                  </div>
                   <div className="columns">
                     <div className="column is-12">
-                      <h3 className="has-text-weight-semibold is-size-2">
-                        {heading}
-                      </h3>
-                      <p>{description}</p>
+                      <strong className="has-text-weight-semibold is-size-5">
+                        {description}
+                      </strong>
                     </div>
                   </div>
-                  <Features gridItems={intro.blurbs} />
                   <div className="columns">
-                    <div className="column is-12 has-text-centered">
+                    <div style={{
+                      display: "flex",
+                      width: "100%",
+                      justifyContent:"space-around",
+                      paddingTop: "40px"
+                    }}>
                       <Link className="btn" to="/products">
                         Ver todos los servicios
                       </Link>
+                      <Link className="btn" to="/contact">
+                        Contacto
+                      </Link>
                     </div>
                   </div>
+                  <Features gridItems={intro.blurbs} />
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
                       Últimas entradas del blog
