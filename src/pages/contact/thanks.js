@@ -6,9 +6,9 @@ export default () => (
   <Layout>
     <section className="section">
       <div className="container">
-        <div className="content">
-          <h1>Thank you!</h1>
-          <p>This is a custom thank you page for form submissions</p>
+        <div className="content" style={{minHeight: '400px'}}>
+          <h1>Gracias por su consulta</h1>
+          <p>En breve nos pondremos en contacto con usted.</p>
         </div>
       </div>
     </section>
