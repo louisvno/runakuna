@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { graphql } from "gatsby";
+import { Link, graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
@@ -34,7 +34,7 @@ export const ProductPageTemplate = ({
             </div>
             <div className="columns">
               <div className="column is-10 is-offset-1">
-                <Features gridItems={intro.blurbs}>
+                <Features gridItems={intro.blurbs} columns={12}>
                   <div>
                   <h3>Nuestros servicios en Extranjería e inmigración:</h3>
 
@@ -79,29 +79,48 @@ export const ProductPageTemplate = ({
                         </ul>
                       </li>
                     </ul>
+                    <div style={{display: 'flex', justifyContent: 'center'}}>
+                      <Link className="btn" to="/contact">
+                        Contacto
+                      </Link>  
+                    </div>
                   </div>
 
                   <div>
                     <h3>Nuestros servicios en Laboral y Seguridad Social:</h3>
-
-                    <li>Cálculo de indemnizaciones por despido o accidente.</li>
-                    <li>Conciliaciones.</li>
-                    <li>Relación con los Representantes Legales de los Trabajadores</li>
-                    <li>Gestión y Administración de Nóminas</li>
-                    <li>Reclamaciones salariales.</li>
-                    <li>FOGASA.</li>
-                    <li>Acoso laboral.</li>
-                    <li>Sanciones disciplinarias injustificadas.</li>
-                    <li>Seguridad social.</li>
-                    <li>Prestaciones : Jubilación, viudedad, incapacidades, reclamos etc.</li>               
+                    <ul>
+                      <li>Cálculo de indemnizaciones por despido o accidente.</li>
+                      <li>Conciliaciones.</li>
+                      <li>Relación con los Representantes Legales de los Trabajadores</li>
+                      <li>Gestión y Administración de Nóminas</li>
+                      <li>Reclamaciones salariales.</li>
+                      <li>FOGASA.</li>
+                      <li>Acoso laboral.</li>
+                      <li>Sanciones disciplinarias injustificadas.</li>
+                      <li>Seguridad social.</li>
+                      <li>Prestaciones : Jubilación, viudedad, incapacidades, reclamos etc.</li>    
+                    </ul> 
+                    <div style={{display: 'flex', justifyContent: 'center'}}>
+                      <Link className="btn" to="/contact">
+                        Contacto
+                      </Link>  
+                    </div>
                   </div>
 
                   <div>
                     <h3>Nuestros servicios en Mediación</h3>
-                    <li>Mediación Social</li>
-                    <li>Mediación Familiar</li>
-                    <li>Mediación Mercantil</li>
-                    <li>Mediación Contencioso-Administrativo</li>
+                    <ul>
+                      <li>Mediación Social</li>
+                      <li>Mediación Familiar</li>
+                      <li>Mediación Mercantil</li>
+                      <li>Mediación Contencioso-Administrativo</li>
+                    </ul>
+
+                    <div style={{display: 'flex', justifyContent: 'center'}}>
+                      <Link className="btn" to="/contact">
+                        Contacto
+                      </Link>  
+                    </div>
                   </div>
                 </Features> 
 

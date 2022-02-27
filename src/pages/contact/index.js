@@ -1,130 +1,29 @@
 import * as React from "react";
-import { navigate } from "gatsby-link";
 import Layout from "../../components/Layout";
 
-function encode(data) {
-  return Object.keys(data)
-    .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-    .join("&");
-}
+export default function Index (){
 
-export default class Index extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { isValidated: false };
-  }
-
-  handleChange = (e) => {
-    this.setState({ [e.target.name]: e.target.value });
-  };
-
-  handleSubmit = (e) => {
-    e.preventDefault();
-    const form = e.target;
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({
-        "form-name": form.getAttribute("name"),
-        ...this.state,
-      }),
-    })
-      .then(() => navigate(form.getAttribute("action")))
-      .catch((error) => alert(error));
-  };
-
-  render() {
     return (
       <Layout>
-        <section className="section">
           <div className="container">
             <div className="content">
-              <h1>Contacto</h1>
-              <form
-                name="contact"
-                method="post"
-                action="/contact/thanks/"
-                data-netlify="true"
-                data-netlify-honeypot="bot-field"
-                onSubmit={this.handleSubmit}
-              >
-                {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-                <input type="hidden" name="form-name" value="contact" />
-                <div hidden>
-                  <label>
-                    Don’t fill this out:{" "}
-                    <input name="bot-field" onChange={this.handleChange} />
-                  </label>
-                </div>
-                <div className="field">
-                  <label className="label" htmlFor={"name"}>
-                    Nombre
-                  </label>
-                  <div className="control">
-                    <input
-                      className="input"
-                      type={"text"}
-                      name={"name"}
-                      onChange={this.handleChange}
-                      id={"name"}
-                      required={true}
-                    />
-                  </div>
-                </div>
-                <div className="field">
-                  <label className="label" htmlFor={"email"}>
-                    Email
-                  </label>
-                  <div className="control">
-                    <input
-                      className="input"
-                      type={"email"}
-                      name={"email"}
-                      onChange={this.handleChange}
-                      id={"email"}
-                      required={true}
-                    />
-                  </div>
-                </div>
-                <div className="field">
-                  <label className="label" htmlFor={"telephone"}>
-                    Teléfono
-                  </label>
-                  <div className="control">
-                    <input
-                      className="input"
-                      type={"tel"}
-                      name={"telephone"}
-                      onChange={this.handleChange}
-                      id={"telephone"}
-                      required={true}
-                    />
-                  </div>
-                </div>
-                <div className="field">
-                  <label className="label" htmlFor={"message"}>
-                    Mensaje
-                  </label>
-                  <div className="control">
-                    <textarea
-                      className="textarea"
-                      name={"message"}
-                      onChange={this.handleChange}
-                      id={"message"}
-                      required={true}
-                    />
-                  </div>
-                </div>
-                <div className="field">
-                  <button className="button is-link" type="submit">
-                    Enviar
-                  </button>
-                </div>
-              </form>
+              
+              <address>
+                <h4>
+                 Telefono <a href="tel:+34625275366">+34625275366</a>
+                </h4>
+                
+              </address> 
+               O el formulario de contacto
+               <iframe id="JotFormIFrame-220572143589358" 
+                      title="Simple Contact Form in Spanish" 
+                      onLoad={window.parent.scrollTo(0,0)} 
+                      allowFullScreen={true} 
+                      src="https://form.jotform.com/220572143589358" 
+                      frameBorder={0} 
+                      style={{minWidth: '100%', height: '800px', border:'none'}} scrolling="no" > </iframe> 
+              </div>
             </div>
-          </div>
-        </section>
       </Layout>
     );
-  }
 }

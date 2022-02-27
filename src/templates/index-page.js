@@ -45,14 +45,16 @@ export const IndexPageTemplate = ({
                       <Link className="btn" to="/products">
                         Ver todos los servicios
                       </Link>
-                      <Link className="btn" to="/contact">
-                        Contacto
-                      </Link>
                     </div>
                   </div>
-                  <Features gridItems={intro.blurbs} />
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
+                    <h3 className="has-text-weight-semibold is-size-3">
+                      Nuestros valores
+                    </h3>
+                  </div>
+                  <Features gridItems={intro.blurbs} columns={6} />
+                  <div className="column is-12">
+                    <h3 className="has-text-weight-semibold is-size-3">
                       Últimas entradas del blog
                     </h3>
                     <BlogRoll />
