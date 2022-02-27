@@ -7,10 +7,7 @@ subheading: " Asesoría Jurídica  "
 mainpitch:
   title: Asesoría Jurídica
   description: Runakuna
-description: Con más de 5 años de experiencia en el sector. Ofrecemos servicios
-  jurídicos enfocados en las ramas de extranjería, laboral y seguridad social y
-  servicios extrajudiciales, centrados en la mediación familiar, civil y
-  mercantil.
+description: Ofrecemos servicios de extranjería, mediación, laboral y seguridad social.
 intro:
   blurbs:
     - image: /img/loyalty.jpg
