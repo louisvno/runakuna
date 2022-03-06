@@ -22,7 +22,7 @@ export default function Index (){
           <div className="container">
             <div className="content" style={{minHeight: '800px'}}>
               <div className="columns is-multiline">
-                <section className="column is-12">
+                <section className="column is-12 section" style={{paddingBottom: '10px'}}>
                   <div style={{display:"flex", justifyContent: "center", alignItems:"center", flexDirection: "column"}}>
                     <h4 className="has-text-weight-semibold is-size-5-mobile is-size-3">¿Una consulta?</h4>
                     <h4 className="has-text-weight-semibold is-size-5-mobile is-size-3">Llamanos o rellena el formulario de contacto</h4>
@@ -44,8 +44,8 @@ export default function Index (){
                 </section>
               </div>
 
-              <section>
-                <iframe ref={iframeElement} style={{minWidth: '100%', height: '800px', border:'none'}}>
+              <section style={{display: "flex", justifyContent:"center"}}>
+                <iframe ref={iframeElement} style={{width: '100vw', maxWidth: '700px', height: '800px', border:'none'}}>
                 </iframe> 
               </section>
               </div>

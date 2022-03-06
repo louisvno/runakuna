@@ -28,7 +28,7 @@ const Footer = class extends React.Component {
                 </a>
               </div>
               </div>
-              <div className="columns" style={{paddingTop: "0.75em", paddingBottom: "0.75em"}}>
+              <div className="columns" style={{paddingTop: "0.75em", paddingBottom: "0.75em", maxWidth: "100vw"}}>
               <div className="column is-4 is-offset-2" style={{paddingTop: 0, paddingBottom: 0}}>
                 <section >
                   <ul className="menu-list" style={{marginTop: 0}}>
