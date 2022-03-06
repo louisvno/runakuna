@@ -21,7 +21,7 @@ export default function Index (){
       <Layout>
           <div className="container">
             <div className="content" style={{minHeight: '800px'}}>
-              <div className="columns is-multiline">
+              <div className="columns is-multiline" style={{maxWidth:"100vw"}}>
                 <section className="column is-12 section" style={{paddingBottom: '10px'}}>
                   <div style={{display:"flex", justifyContent: "center", alignItems:"center", flexDirection: "column"}}>
                     <h4 className="has-text-weight-semibold is-size-5-mobile is-size-3">¿Una consulta?</h4>
