@@ -7,7 +7,7 @@ subheading: " Asesoría Jurídica  "
 mainpitch:
   title: Asesoría Jurídica
   description: Runakuna
-description: Ofrecemos servicios de extranjería, mediación, laboral y seguridad social.
+description: ''
 intro:
   blurbs:
     - image: /img/loyalty.jpg
@@ -19,17 +19,17 @@ intro:
     - image: /img/confidentiality.jpg
       text: Confidencialidad
   heading: Lealtad
-  description: ---
+  description: ' '
 main:
   heading: ..
-  description: ...
+  description: ..
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    alt: " "
+    image: /img/extranjeria.png
   image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    alt: " "
+    image: /img/laboral.png
   image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+    alt: " "
+    image: /img/mediacion.png
 ---

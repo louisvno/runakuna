@@ -7,6 +7,8 @@ import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import FullWidthImage from "../components/FullWidthImage";
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
@@ -17,6 +19,7 @@ export const IndexPageTemplate = ({
   mainpitch,
   description,
   intro,
+  main
 }) => {
   const heroImage = getImage(image) || image;
 
@@ -37,32 +40,35 @@ export const IndexPageTemplate = ({
                   </div>
                   <div className="columns">
                     <div className="column is-12">
-                    <div style={{
-                      display: "flex",
-                      width: "100%",
-                      justifyContent:"space-around",
-                      paddingTop: "40px"
-                    }}>
-                      {/*
-                      <Link to="/products#extranjeria">
-                        <img src="" alt="enlace a productos extranjeria"/>
-                      </Link>
-                      <Link to="/products#laboral">
-                      </Link>
-                      <Link to="/products#mediacion">
-                      </Link>*/}
+                    <div style={{display: "flex", justifyContent: 'space-around', paddingBottom: "1.5em"}}>
+                      <div style={{display: "flex", flexDirection: 'column'}}>
+                        <Link to="/products#extranjeria">
+                          <PreviewCompatibleImage imageInfo={main.image1.image} />
+                        </Link>
+                        <h4 className="is-size-5">Extranjería</h4>
+                       
+                      </div>
+                      <div style={{display: "flex", flexDirection: 'column'}}>
+                        <Link to="/products#laboral">
+                          <PreviewCompatibleImage imageInfo={main.image2.image} />
+                        </Link>
+                        <h4 className="is-size-5">Laboral</h4>
+                        
+                      </div>
+                      <div style={{display: "flex", flexDirection: 'column'}}>
+                        <Link to="/products#mediacion">
+                          <PreviewCompatibleImage imageInfo={main.image3.image} />
+                        </Link>
+                        <h4 className="is-size-5">Mediación</h4>
+                      </div>
+                    </div>
+                    <div style={{display: "flex", justifyContent: 'space-around'}}>
                       <Link className="btn" to="/products">
                         Ver todos los servicios
                       </Link>
                     </div>
                     </div>
                   </div>
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-3">
-                      Nuestros valores
-                    </h3>
-                  </div>
-                  <Features gridItems={intro.blurbs} columns={6} />
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-3">
                       Últimas entradas del blog
@@ -108,6 +114,7 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
+        main={frontmatter.main}
       />
     </Layout>
   );
@@ -151,6 +158,29 @@ export const pageQuery = graphql`
           }
           heading
           description
+        }
+        main {
+          image1 {
+              image {
+              childImageSharp {
+                gatsbyImageData(width: 100, quality: 64, layout: CONSTRAINED)
+              }
+            }
+          }
+          image2 {
+            image {
+            childImageSharp {
+              gatsbyImageData(width: 100, quality: 64, layout: CONSTRAINED)
+            }
+          }
+        }
+        image3 {
+          image {
+          childImageSharp {
+            gatsbyImageData(width: 100, quality: 64, layout: CONSTRAINED)
+          }
+        }
+      }
         }
       }
     }

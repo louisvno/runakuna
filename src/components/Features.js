@@ -2,10 +2,10 @@ import * as React from "react";
 import PropTypes from "prop-types";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
-const FeatureGrid = ({ gridItems, children, columns }) => (
+const FeatureGrid = ({ gridItems, children, columns, ids }) => (
   <div className="columns is-multiline">
     {gridItems.map((item, i) => (
-      <div key={item.text} className={"column is-" + columns}>
+      <div id={ids?.[i]} key={item.text} className={"column is-" + columns}>
           <div className="has-text-centered">
             <div
               style={{
@@ -25,6 +25,7 @@ const FeatureGrid = ({ gridItems, children, columns }) => (
 
 FeatureGrid.propTypes = {
   columns: PropTypes.number,
+  ids: [],
   gridItems: PropTypes.arrayOf(
     PropTypes.shape({
       image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),

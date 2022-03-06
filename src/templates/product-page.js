@@ -33,9 +33,9 @@ export const ProductPageTemplate = ({
             </div>
             <div className="columns">
               <div className="column is-10 is-offset-1">
-                <Features gridItems={intro.blurbs} columns={12}>
+                <Features ids={['extranjeria', 'laboral', 'mediacion' ]} gridItems={intro.blurbs} columns={12}>
                   <div>
-                  <h3 id='extranjeria' className="has-text-weight-semibold is-size-5">Nuestros servicios en Extranjería e inmigración:</h3>
+                  <h3 className="has-text-weight-semibold is-size-5">Nuestros servicios en Extranjería e inmigración:</h3>
 
                   Ofrecemos asesoramiento y tramitación de Expedientes, Iniciales y/o de Renovación, de las siguientes Autorizaciones, entre otros servicios:
                     <ul>
@@ -86,7 +86,7 @@ export const ProductPageTemplate = ({
                   </div>
 
                   <div>
-                    <h3 id='laboral' className="has-text-weight-semibold is-size-5">Nuestros servicios en Laboral y Seguridad Social:</h3>
+                    <h3  className="has-text-weight-semibold is-size-5">Nuestros servicios en Laboral y Seguridad Social:</h3>
                     <ul>
                       <li>Cálculo de indemnizaciones por despido o accidente.</li>
                       <li>Conciliaciones.</li>
@@ -107,7 +107,7 @@ export const ProductPageTemplate = ({
                   </div>
 
                   <div>
-                    <h3 id='mediacion' className="has-text-weight-semibold is-size-5">Nuestros servicios en Mediación</h3>
+                    <h3  className="has-text-weight-semibold is-size-5">Nuestros servicios en Mediación</h3>
                     <ul>
                       <li>Mediación Social</li>
                       <li>Mediación Familiar</li>
@@ -122,36 +122,6 @@ export const ProductPageTemplate = ({
                     </div>
                   </div>
                 </Features> 
-
-                {/* <div className="columns">
-                  <div className="column is-7">
-                    <h3 className="has-text-weight-semibold is-size-3">
-                      {main.heading}
-                    </h3>
-                    <p>{main.description}</p>
-                  </div>
-                </div>
-                <div className="tile is-ancestor">
-                  <div className="tile is-vertical">
-                    <div className="tile">
-                      <div className="tile is-parent is-vertical">
-                        <article className="tile is-child">
-                          <PreviewCompatibleImage imageInfo={main.image1} />
-                        </article>
-                      </div>
-                      <div className="tile is-parent">
-                        <article className="tile is-child">
-                          <PreviewCompatibleImage imageInfo={main.image2} />
-                        </article>
-                      </div>
-                    </div>
-                    <div className="tile is-parent">
-                      <article className="tile is-child">
-                        <PreviewCompatibleImage imageInfo={main.image3} />
-                      </article>
-                    </div>
-                  </div>
-                </div> */}
               </div>
             </div>
           </div>
