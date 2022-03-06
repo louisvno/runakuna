@@ -28,9 +28,9 @@ const Footer = class extends React.Component {
                 </a>
               </div>
               </div>
-              <div className="columns is-multiline" style={{paddingTop: "0.75em", paddingBottom: "0.75em"}}>
-              <div className="column is-4" style={{paddingTop: 0, paddingBottom: 0}}>
-                <section className="menu">
+              <div className="columns" style={{paddingTop: "0.75em", paddingBottom: "0.75em"}}>
+              <div className="column is-4 is-offset-2" style={{paddingTop: 0, paddingBottom: 0}}>
+                <section >
                   <ul className="menu-list" style={{marginTop: 0}}>
                     <li>
                       <Link to="/" className="navbar-item">
@@ -50,7 +50,7 @@ const Footer = class extends React.Component {
                   </ul>
                 </section>
               </div>
-              <div className="column is-4" style={{paddingTop: 0, paddingBottom: 0}}>
+              <div className="column is-4 is-offset-2" style={{paddingTop: 0, paddingBottom: 0}}>
                 <section>
                   <ul className="menu-list" style={{marginTop: 0}}>
                     <li>
@@ -74,6 +74,9 @@ const Footer = class extends React.Component {
               </div>
 
           </div>
+        </div>
+        <div style={{display: 'flex', justifyContent: "end", width: "100%"}}>
+          <a href="https://www.linkedin.com/in/louisvno/" style={{padding: '10px', fontSize: "11px", color: '#246d7d'}}>web development: Louis van Noorden</a>
         </div>
       </footer>
     );
