@@ -2,11 +2,20 @@ import * as React from "react";
 import Layout from "../../components/Layout";
 import locImg from "../../img/runakuna_location.png";
 import tel from "../../img/runakuna_tel.png";
-if (typeof window !== `undefined`) {
-  require("../../components/FormComponent")
-}
 
 export default function Index (){
+
+    const iframeElement = React.useRef();
+
+    React.useEffect(() => {
+      iframeElement.current.id="JotFormIFrame-220572143589358" 
+      iframeElement.current.title="Runakuna formulario de contacto" 
+      iframeElement.current.onLoad= window.parent.scrollTo(0,0);
+      iframeElement.current.allowFullScreen = true; 
+      iframeElement.current.src="https://form.jotform.com/220572143589358" 
+      iframeElement.current.frameBorder= 0; 
+      iframeElement.current.scrolling="no"
+    }, [])
 
     return (
       <Layout>
@@ -24,21 +33,20 @@ export default function Index (){
                     <img src={tel} alt="Ubicación" style={{maxHeight: "60px"}}/>
                     <a style={{paddingLeft: "20px"}} className="is-size-5-mobile is-size-5-tablet is-size-4-widescreen" href="tel:+34625275366">+34625275366</a>
                   </div>
-                </section>
-                {/*
+                </section>   
                 <section className="column is-12">
                   <div style={{display:"flex", justifyContent: "center", alignItems:"center"}}>
                     <img src={locImg} alt="Ubicación" style={{maxHeight: "60px"}}/>
                     <address style={{paddingLeft: "20px"}}>
-                      Avinguda Diagonal, 534 <br></br>
-                      08006 Barcelona <br></br>
+                      Barcelona, España
                     </address> 
                   </div>
-                </section>*/}
+                </section>
               </div>
 
-              <section id="contact-form-container">
-
+              <section>
+                <iframe ref={iframeElement} style={{minWidth: '100%', height: '800px', border:'none'}}>
+                </iframe> 
               </section>
               </div>
             </div>

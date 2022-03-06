@@ -6,11 +6,12 @@ export default function Legal () {
     return (
         <Layout>
                   <div className="container">
-            <div style={{minHeight: "700px"}}>
-                <h2 className="title is-size-3 has-text-weight-semibold">
-                    Politica de privacidad y protección de datos
-                </h2>
-                <section>
+            <div className="section" style={{minHeight: "700px"}}>
+                 <section>
+                    <h2 className="title is-size-3 has-text-weight-semibold">
+                        Politica de privacidad y protección de datos
+                    </h2>
+
                     <p style={{paddingTop: "0.75em"}}>De conformidad con lo establecido en la normativa vigente en Protección de Datos de Carácter Personal, le informamos que sus datos serán incorporados al sistema de tratamiento titularidad de ASESORÍA JURÍDICA RUNAKUNA y domicilio social sito en Avinguda Diagonal, 534 - 08006 Barcelona, con la finalidad de atender sus consultas y remitirle información relacionada que pueda ser de su interés. En cumplimiento con la normativa vigente, ASESORÍA JURÍDICA RUNAKUNA informa que los datos serán conservados durante el plazo estrictamente necesario para cumplir con los preceptos mencionados con anterioridad.</p>
                     <p style={{paddingTop: "0.75em"}}>Mientras no nos comunique lo contrario, entenderemos que sus datos no han sido modificados, que usted se compromete a notificarnos cualquier variación y que tenemos su consentimiento para utilizarlos para las finalidades mencionadas.</p>
                     <p style={{paddingTop: "0.75em"}}>ASESORÍA JURÍDICA RUNAKUNA informa que procederá a tratar los datos de manera lícita, leal, transparente, adecuada, pertinente, limitada, exacta y actualizada. Es por ello que ASESORÍA JURÍDICA RUNAKUNA se compromete a adoptar todas las medidas razonables para que estos se supriman o rectifiquen sin dilación cuando sean inexactos.</p>

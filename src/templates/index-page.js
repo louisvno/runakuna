@@ -36,15 +36,25 @@ export const IndexPageTemplate = ({
                     </div>
                   </div>
                   <div className="columns">
+                    <div className="column is-12">
                     <div style={{
                       display: "flex",
                       width: "100%",
                       justifyContent:"space-around",
                       paddingTop: "40px"
                     }}>
+                      {/*
+                      <Link to="/products#extranjeria">
+                        <img src="" alt="enlace a productos extranjeria"/>
+                      </Link>
+                      <Link to="/products#laboral">
+                      </Link>
+                      <Link to="/products#mediacion">
+                      </Link>*/}
                       <Link className="btn" to="/products">
                         Ver todos los servicios
                       </Link>
+                    </div>
                     </div>
                   </div>
                   <div className="column is-12">

@@ -25,17 +25,17 @@ export const ProductPageTemplate = ({
           <div className="section">
             <div className="columns">
               <div className="column is-11 is-offset-1">
-                <h3 className="has-text-weight-semibold is-size-3">
+                <h2 className="has-text-weight-semibold is-size-3">
                   {heading}
-                </h3>
-                <strong>{description}</strong>
+                </h2>
+                <h3 className="has-text-weight-semibold is-size-5">{description}</h3>
               </div>
             </div>
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <Features gridItems={intro.blurbs} columns={12}>
                   <div>
-                  <h3>Nuestros servicios en Extranjería e inmigración:</h3>
+                  <h3 id='extranjeria' className="has-text-weight-semibold is-size-5">Nuestros servicios en Extranjería e inmigración:</h3>
 
                   Ofrecemos asesoramiento y tramitación de Expedientes, Iniciales y/o de Renovación, de las siguientes Autorizaciones, entre otros servicios:
                     <ul>
@@ -86,7 +86,7 @@ export const ProductPageTemplate = ({
                   </div>
 
                   <div>
-                    <h3>Nuestros servicios en Laboral y Seguridad Social:</h3>
+                    <h3 id='laboral' className="has-text-weight-semibold is-size-5">Nuestros servicios en Laboral y Seguridad Social:</h3>
                     <ul>
                       <li>Cálculo de indemnizaciones por despido o accidente.</li>
                       <li>Conciliaciones.</li>
@@ -107,7 +107,7 @@ export const ProductPageTemplate = ({
                   </div>
 
                   <div>
-                    <h3>Nuestros servicios en Mediación</h3>
+                    <h3 id='mediacion' className="has-text-weight-semibold is-size-5">Nuestros servicios en Mediación</h3>
                     <ul>
                       <li>Mediación Social</li>
                       <li>Mediación Familiar</li>
