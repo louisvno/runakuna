@@ -1,7 +1,7 @@
 ---
 heading: Nuestros servicios
 subheading: .
-path: /products
+path: /servicios
 templateKey: product-page
 title: ¿Qué ofrecemos?
 image: /img/mediacion2.jpg

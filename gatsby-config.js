@@ -1,10 +1,62 @@
+const siteUrl = "https://www.asesoriarunakuna.es";
+
 module.exports = {
   siteMetadata: {
     title: "Runakuna Asesoría Jurídica",
-    description:
-      "This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.",
-  },
+    description: `Asesoría Jurídica Runakuna. 
+    Situada en Barcelona, España. Abogados en extranjería, migración y nacionalidad. 
+    Ofrecemos servicios de extranjería, nacionalidad española, laboral, seguridad social, mediación, renovación N.I.E., solicitud de N.I.E. régimen Comunitario y Familiares de Comunitarios, Solicitud de Autorización de Residencia Temporal Reagrupación Familiar, Solicitud de Autorización de Residencia Temporal y Trabajo Cuenta Ajena, Solicitud de Autorización de Residencia Temporal y Trabajo Cuenta Propia, Solicitud de Autorización de Residencia y/o Trabajo Circunstancias Excepcionales, Arraigo Social, Arraigo Laboral, Arraigo Familiar, Solicitud de Autorización de Residencia de Larga Duración, Larga Duración UE, Solicitud de Autorización de Residencia de Visado de Estudiantes, Solicitud de Autorización para Trabajar, Solicitud de Autorización de Regreso, Homologación de Títulos, Apostillas de Títulos, Legalización de Menores, Cartas de Invitación, Visados, Recursos contra la Administración, Infracciones y Sanciones, Internamientos y Expulsiones. Asilos, protección internacional. Cálculo de indemnizaciones por despido o accidente, Conciliaciones, Relación con los Representantes Legales de los Trabajadores, Gestión y Administración de Nóminas, Reclamaciones salariales, FOGASA, Sanciones disciplinarias injustificadas, Seguridad social, Prestaciones, Jubilación, viudedad, incapacidades, reclamos etc. Sigue nuestro blog jurídico, donde publicaremos temas de interés y noticias.`,
+    },
   plugins: [
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        query: `
+        {
+          allMarkdownRemark {
+            nodes {
+              frontmatter {
+                date
+              }
+              parent {
+                ... on File {
+                  name
+                }
+              }
+            }
+          }
+          allSitePage {
+            nodes {
+              path
+            }
+          }
+        }
+      `,
+        resolvePages: ({
+          allSitePage: { nodes: allPages },
+          allMarkdownRemark: { nodes: allMarkdowns}
+        }) => {
+          console.log(allMarkdowns)
+
+          const mkMap = allMarkdowns.reduce((acc, curr) => {
+            if(curr?.frontmatter.date) {
+              return {...acc, [`/blog/${curr.parent.name}/`] : curr.frontmatter.date}
+            }
+            return {...acc}
+          }, {})
+          return allPages.map(page => {
+            return { ...page, modified: mkMap[page.path]}
+          })
+        },
+        resolveSiteUrl: () => siteUrl,
+        serialize: ({ path, modified }) => {
+          return {
+            url: path,
+            lastmod: modified,
+          }
+        },
+      },
+    },
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-sass",

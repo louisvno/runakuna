@@ -33,3 +33,11 @@ main:
     alt: " "
     image: /img/mediacion.png
 ---
+Asesoría Jurídica Runakuna, con sede en la ciudad de Barcelona, España. <br>
+Ofrecemos los siguientes servicios:
+
+- Mediación y Conciliación
+- Extranjería y Nacionalidad
+- Laboral y seguridad social 
+
+No dudes en contactar con nosotros y pedir cita online o presencial. 

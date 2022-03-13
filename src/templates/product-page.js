@@ -79,7 +79,7 @@ export const ProductPageTemplate = ({
                       </li>
                     </ul>
                     <div style={{display: 'flex', justifyContent: 'center'}}>
-                      <Link className="btn" to="/contact">
+                      <Link className="btn" to="/contacto">
                         Contacto
                       </Link>  
                     </div>
@@ -100,7 +100,7 @@ export const ProductPageTemplate = ({
                       <li>Prestaciones : Jubilación, viudedad, incapacidades, reclamos etc.</li>    
                     </ul> 
                     <div style={{display: 'flex', justifyContent: 'center'}}>
-                      <Link className="btn" to="/contact">
+                      <Link className="btn" to="/contacto">
                         Contacto
                       </Link>  
                     </div>
@@ -116,7 +116,7 @@ export const ProductPageTemplate = ({
                     </ul>
 
                     <div style={{display: 'flex', justifyContent: 'center'}}>
-                      <Link className="btn" to="/contact">
+                      <Link className="btn" to="/contacto">
                         Contacto
                       </Link>  
                     </div>

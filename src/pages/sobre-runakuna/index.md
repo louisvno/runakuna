@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-path: /about
+path: /sobre-runakuna
 title: Quienes somos
 ---
 <!--StartFragment-->
