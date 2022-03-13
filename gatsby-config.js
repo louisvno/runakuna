@@ -3,14 +3,15 @@ const siteUrl = "https://www.asesoriarunakuna.es";
 module.exports = {
   siteMetadata: {
     title: "Runakuna Asesoría Jurídica",
-    description: `Asesoría Jurídica Runakuna. 
-    Situada en Barcelona, España. Abogados en extranjería, migración y nacionalidad. 
-    Ofrecemos servicios de extranjería, nacionalidad española, laboral, seguridad social, mediación, renovación N.I.E., solicitud de N.I.E. régimen Comunitario y Familiares de Comunitarios, Solicitud de Autorización de Residencia Temporal Reagrupación Familiar, Solicitud de Autorización de Residencia Temporal y Trabajo Cuenta Ajena, Solicitud de Autorización de Residencia Temporal y Trabajo Cuenta Propia, Solicitud de Autorización de Residencia y/o Trabajo Circunstancias Excepcionales, Arraigo Social, Arraigo Laboral, Arraigo Familiar, Solicitud de Autorización de Residencia de Larga Duración, Larga Duración UE, Solicitud de Autorización de Residencia de Visado de Estudiantes, Solicitud de Autorización para Trabajar, Solicitud de Autorización de Regreso, Homologación de Títulos, Apostillas de Títulos, Legalización de Menores, Cartas de Invitación, Visados, Recursos contra la Administración, Infracciones y Sanciones, Internamientos y Expulsiones. Asilos, protección internacional. Cálculo de indemnizaciones por despido o accidente, Conciliaciones, Relación con los Representantes Legales de los Trabajadores, Gestión y Administración de Nóminas, Reclamaciones salariales, FOGASA, Sanciones disciplinarias injustificadas, Seguridad social, Prestaciones, Jubilación, viudedad, incapacidades, reclamos etc. Sigue nuestro blog jurídico, donde publicaremos temas de interés y noticias.`,
+    description: `Asesoría Jurídica Runakuna. Situada en Barcelona, España.
+    Abogados en extranjería, migración y nacionalidad.Servicios de extranjería, nacionalidad española, laboral, seguridad social, mediación, N.I.E, Arraigo Social, Arraigo Laboral, Arraigo Familiar, asilo, protección internacional. Sigue nuestro blog. Comunitario.
+    `,
     },
   plugins: [
     {
       resolve: "gatsby-plugin-sitemap",
       options: {
+        output: "/",
         query: `
         {
           allMarkdownRemark {
