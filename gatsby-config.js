@@ -9,6 +9,14 @@ module.exports = {
     },
   plugins: [
     {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: siteUrl,
+        sitemap: `${siteUrl}/sitemap-index.xml`,
+        policy: [{userAgent: '*', allow: '/'}]
+      }
+    },
+    {
       resolve: "gatsby-plugin-sitemap",
       options: {
         output: "/",
