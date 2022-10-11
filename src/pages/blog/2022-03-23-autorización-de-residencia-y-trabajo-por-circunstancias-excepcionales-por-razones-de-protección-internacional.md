@@ -6,7 +6,7 @@ date: 2022-03-23T08:55:20.817Z
 description: |
   - Parte I -  Conceptos básicos
 featuredpost: true
-featuredimage: /img/portada-asilo-politico-asesoria-runakuna-barcelona.jpg
+featuredimage: /img/portada-asilo-01.jpg
 tags:
   - Asilo
   - Asilopolitico
