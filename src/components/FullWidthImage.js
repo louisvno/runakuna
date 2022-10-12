@@ -87,7 +87,7 @@ export default function FullWidthImage(props) {
               </h1>
             )}
             {subheading && (
-              <h3
+              <h1
                 className="has-text-weight-bold is-size-4-mobile is-size-4-tablet is-size-3-widescreen"
                 style={{
                   color: "black",
@@ -99,7 +99,7 @@ export default function FullWidthImage(props) {
                 }}
               >
                 {subheading}
-              </h3>
+              </h1>
             )}
           </div>
         )}

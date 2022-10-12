@@ -115,24 +115,21 @@ $menu-label-color: $white-ter
   background-color: #d1c6c2
 .blog-list-item header
   display: flex
+  flex-direction: column
   margin-bottom: 1em
 .blog-list-item .featured-thumbnail
-  flex-basis: 35%
-  margin: 0 1.5em 0 0
-
+  display: flex
+  justify-content: center
+  margin-bottom: 15px
 
 @import "~bulma"
 
 
 // responsiveness
 +tablet-only
-  .blog-list-item .featured-thumbnail
-    flex-basis: 50%
 
 +mobile
   .blog-list-item header
     display: block
   .blog-list-item .featured-thumbnail
     text-align: center
-    max-width: 70%
-    margin: 0 0 1em
